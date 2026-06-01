@@ -169,11 +169,15 @@
           </div>
           <div class="tile">
             <h3>General enquiry</h3>
-            <form class="form" id="enquiry-form">
+            <form class="form" id="enquiry-form" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="4101d0dd-d57d-4c8d-b2de-30687e8a80f0">
+              <input type="hidden" name="subject" value="New enquiry from Anita Rossiter website">
+              <input type="hidden" name="from_name" value="Anita Rossiter website">
+              <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display: none;">
               <input name="name" type="text" placeholder="Name" required>
               <input name="email" type="email" placeholder="Email" required>
               <input name="organisation" type="text" placeholder="Organisation / group">
-              <textarea name="message" placeholder="Tell Anita what you are looking for"></textarea>
+              <textarea name="message" placeholder="Tell Anita what you are looking for" required></textarea>
               <button class="button" type="submit">Send enquiry</button>
               <p class="form-note" id="form-note" role="status"></p>
             </form>
