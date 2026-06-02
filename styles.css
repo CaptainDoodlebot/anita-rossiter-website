@@ -68,7 +68,7 @@ h3 {
 }
 
 .site-top {
-  padding: 52px 32px 25px;
+  padding: 26px 32px 16px;
   background: var(--white);
   text-align: center;
 }
@@ -416,9 +416,16 @@ h3 {
 }
 
 .footer {
-  padding: 42px 0;
+  padding: 32px 0;
   border-top: 1px solid var(--line);
   background: var(--page);
+  text-align: center;
+}
+
+.footer-logo {
+  width: min(230px, 58vw);
+  height: auto;
+  margin: 0 auto 14px;
 }
 
 .footer p {
@@ -434,12 +441,12 @@ h3 {
   }
 
   .site-top {
-    padding: 22px 18px 14px;
+    padding: 16px 18px 10px;
     border-bottom: 1px solid var(--line);
   }
 
   .logo img {
-    width: min(300px, 78vw);
+    width: min(280px, 78vw);
   }
 
   .site-nav {
